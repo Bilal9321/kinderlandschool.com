@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Admission- Kinderland</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/k.jpg" rel="icon">
+ <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">-->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!--  Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+<style>
+      /* Add some style to the form */
+	  fieldset {
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  padding: 10px;
+       }
+	   .container {
+  display: flex;
+  justify-content: center;
+}
+      label {
+        display: block;
+        margin-bottom: 10px;
+		font-weight: bold;
+		color:#8E44AD;
+		font-size:20px;
+		
+      }
+      input[type="text"], input[type="email"], select {
+        width: 95%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+      }
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+	  
+	  
+	   h2:hover{
+  background-color: #A4EDF5;
+  border:3px solid purple;
+}
+    </style>
+
+  
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+   <!--<h1 class="logo me-auto"><a href="index.html">Mentor</a></h1>-->
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <a href="index.html" class="logo me-auto"><img src="assets/img/kinderland.png" alt="" class="img-fluid">&nbsp;&nbsp;<img src="assets/img/sun.jpg" alt="" class="img-fluid"></a>
+
+       <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="active" href="index.html"><b>Home</b></a></li>
+          <li><a href="about.html"><b>About us</b></a></li>
+          <li><a href="courses.html"><b>Courses & Fee</b></a></li>
+		  <li><a href="Admission.html"><b>Admission</b></a></li>
+		  <li><a href="events.html"><b>Events</b></a></li>
+          <li><a href="contact.html"><b>Contact us</b></a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+	  <!-- .navbar --> 
+      <a href="courses.html" class="get-started-btn">Get Started</a>
+
+    </div>
+  </header>
+					<!-- End Header -->
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs" data-aos="fade-in">
+      <div class="container">
+        <h1>Admission page</h1>
+		<br>
+        <p></p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      
+
+      <div class="container" data-aos="fade-up">
+	    <div class="col-lg-8 mt-5 mt-lg-0">
+		<br><br>
+		
+		
+		<center>
+		 <a href="http://localhost/School/StudentAdmission.php" style="color:#158A31"><h2>Link for admission form</h2></a>
+		</center>
+		
+		<!-----
+		<fieldset>
+<form>
+
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter name of the student" required>
+
+      <label for="age">Age:</label>
+      <input type="text" id="age" name="age" placeholder="Enter age of the student"required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required >
+        <option value="">--Select Gender--</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday" required>
+
+      <label for="contact">Contact Detail:</label>
+      <input type="text" id="contact" maxlength=10 name="contact" required placeholder="Parent's phone number">
+
+<label for="contact">Email Id:</label>
+      <input type="email" id="email" name="email" required placeholder="Email ID of child if not enter parent's email ID">
+      
+
+      <label for="occupation">Occupation:</label>
+      <input type="text" id="occupation" name="occupation" placeholder="Parent's occupation" required>
+	  
+	  <label for="address">Address:</label>
+	  <textarea id="address" name="address" rows="4" cols="90" required placeholder="Enter current address"></textarea>
+      
+<br><br>
+      <input type="reset" value="Clear form" style=" height:50px; width:100px;" >
+	  <BR><br>
+	  <center><input type="submit" value="Submit" style=" height:50px; width:500px; background-color:green"></center>
+
+    </form>
+	</fieldset>
+	</div>
+
+
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3 style="color:teal;"><b>Address</b></h3>
+            <p>
+              Survey No: 7/16, <br>
+              Kondhwa Budruk,<br>
+              Kondhwa,<br>
+			  Pune 411048<br><br>
+              <strong>Phone:</strong> 9890103684<br>
+              <strong>Email:</strong> kinderlandpreschool1@gmail.com<br>
+            </p>
+          </div>
+	 
+ 
+        <div class="copyright">
+          &copy; Copyright 2022&nbsp;<strong><span>&nbsp;sarahanwaransari@gmail.com</span></strong><br>All Rights Reserved
+        </div>
+		<!----<center><p style="background-color:lavender"><strong>Designed by:&nbsp;&nbsp;</strong>&nbsp;Sarah Ansari</p></center>--->
+        
+        
+      </div>
+	  
+	  
+      <div class="social-links">
+     
+        Facebook link:<a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+		<br><br>
+		Instagram link:
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        
+      </div>
+    
+  </footer>
+			<!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
